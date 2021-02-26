@@ -2,8 +2,8 @@ program AwesomeFontPreview;
 
 uses
   Vcl.Forms,
-  Unit3 in 'Unit3.pas' {frmMain},
-  Smart.AwesomeFont in 'Smart.AwesomeFont.pas';
+  Smart.AwesomeFont in 'Smart.AwesomeFont.pas',
+  uMain in 'uMain.pas' {frmMain};
 
 {$R *.res}
 
